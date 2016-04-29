@@ -2,7 +2,7 @@
 # Copyright (C) Igor Sysoev
 # Copyright (C) Nginx, Inc.
 
-
+# 传递一个nginx_include的变量，这个变量是一个头文件的名称，然后检测是否包含这个文件。
 echo $ngx_n "checking for $ngx_include ...$ngx_c"
 
 cat << END >> $NGX_AUTOCONF_ERR
